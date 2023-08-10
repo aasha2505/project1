@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>delicious resturant</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<style>
+    body{
+        font-family: latha;
+        color: white;
+        background: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65),rgba(0,0,0,0.38),rgba(0,0,0,0)),url('food.jpg');
+        background-repeat: no-repeat;
+        background-size: 1370px 700px;
+        height: 5800px;
+        width: 100%;
+ 
+}
+.box{
+    width: 800px;
+    float:right;
+   
+}
+.box ul li {
+    width: 120px;
+    float: left;
+    text-align:center;
+    margin: 10px auto;
+}
+.box ul li a {
+    text-decoration: none;
+    color: white;
+}
+.box ul li:hover{background-color: green;}
+.box ul li a:hover{color: black;}
+
+.logo{
+position: relative;
+ float:top left;
+}
+ .container-fluid h3 {
+    position: absolute;
+    top: 32px;
+    left:70px;
+    font-family: fantasy;
+} 
+#Home .wel{
+    width: 500px;
+    height: 450px;
+    background-color: black;
+    opacity:0.9;
+    position: relative;
+    top: 120px;
+    left: 80px;
+    padding: 55px;
+}
+#Home .wel h2{
+    text-align: center;
+    font-weight: 100px;
+    color: darkgray;
+}
+#Home .wel h3{
+    text-align: center;
+    font-weight: 120px;
+    color: rgb(151, 53, 53);
+}
+#Home  .btn {
+    background-color: green;
+
+    color: white;
+    text-align: center;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 90px;
+    margin-top: 100px;
+    padding: 10px;
+    
+}
+.img{
+    padding-top: 320px;
+    padding-left: 100px;
+}
+
+ .ab h1{
+    position: absolute;
+    top: 900px;
+    right: 330px;
+    text-align: center;
+    color: black;
+ }
+ .ab h4{
+    position:absolute;
+    top: 1000px;
+    left: 700px;
+    padding-right: 100px;
+    text-align: justify;
+    color: black;
+
+ }
+ .em h1{
+    color: rgb(8, 8, 8);
+    text-align: center;
+    margin: 80px;
+ }
+.imgf{
+    display: grid;
+    position: relative;
+    grid-template-rows: auto 1fr;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.6);
+    transition: .2s ease-in-out;
+
+}
+.imgf{
+    position: relative;
+    position: absolute;
+    top: 1500px;
+    left: 10px;
+    width: 50%;
+    height: 400px;
+    border-radius: 15px 15px 0 0;
+    cursor: pointer;
+}
+.imgf img:hover{
+   scale: 0.9;
+
+}
+.details-sub{
+    color: black;
+}
+.details  p {
+    color: black;
+}
+.imgf1{
+    display: grid;
+    position: relative;
+    grid-template-rows: auto 1fr;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.6);
+    transition: .2s ease-in-out;
+
+}
+.imgf1{
+    position: relative;
+    position: absolute;
+    top: 1500px;
+    left: 350px;
+    width: 50%;
+    height: 400px;
+    border-radius: 15px 15px 0 0;
+    cursor: pointer;
+}
+.imgf1 img:hover{
+    scale: 0.9;
+
+}
+.details-sub1{
+    color: black;
+}
+.details1  p {
+    color: black;
+}
+.imgf2{
+    display: grid;
+    position: relative;
+    grid-template-rows: auto 1fr;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.6);
+    transition: .2s ease-in-out;
+
+}
+.imgf2{
+    position: relative;
+    position: absolute;
+    top: 1500px;
+    left: 690px;
+    width: 50%;
+    height: 400px;
+    border-radius: 15px 15px 0 0;
+    cursor: pointer;
+}
+.imgf2 img:hover{
+    scale: 0.9;
+
+}
+.details-sub2{
+    color: black;
+}
+.details2  p {
+    color: black;
+}
+.imgf3{
+    display: grid;
+    position: relative;
+    grid-template-rows: auto 1fr;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.6);
+    transition: .2s ease-in-out;
+
+}
+.imgf3{
+    position: relative;
+    position: absolute;
+    top: 1500px;
+    left: 1030px;
+    width: 25%;
+    height: 400px;
+    border-radius: 15px 15px 0 0;
+    cursor: pointer;
+}
+.imgf3 img:hover{
+    scale: 0.9;
+
+}
+.details-sub3{
+    color: black;
+}
+.details3  p {
+    color: black;
+}
+.imgf4{
+    display: grid;
+    position: relative;
+    grid-template-rows: auto 1fr;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.6);
+    transition: .2s ease-in-out;
+
+}
+.imgf4{
+    position: relative;
+    position: absolute;
+    top: 2000px;
+    left: 10px;
+    width: 50%;
+    height: 400px;
+    border-radius: 15px 15px 0 0;
+    cursor: pointer;
+}
+.imgf4 img:hover{
+   scale: 0.9;
+
+}
+.details-sub4{
+    color: black;
+}
+.details4  p {
+    color: black;
+}
+.imgf5{
+    display: grid;
+    position: relative;
+    grid-template-rows: auto 1fr;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.6);
+    transition: .2s ease-in-out;
+
+}
+.imgf5{
+    position: relative;
+    position: absolute;
+    top: 2000px;
+    left: 350px;
+    width: 50%;
+    height: 400px;
+    border-radius: 15px 15px 0 0;
+    cursor: pointer;
+}
+.imgf5 img:hover{
+    scale: 0.9;
+
+}
+.details-sub5{
+    color: black;
+}
+.details5  p {
+    color: black;
+}
+.imgf6{
+    display: grid;
+    position: relative;
+    grid-template-rows: auto 1fr;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.6);
+    transition: .2s ease-in-out;
+
+}
+.imgf6{
+    position: relative;
+    position: absolute;
+    top: 2000px;
+    left: 690px;
+    width: 50%;
+    height: 400px;
+    border-radius: 15px 15px 0 0;
+    cursor: pointer;
+}
+.imgf6 img:hover{
+    scale: 0.9;
+
+}
+.details-sub6{
+    color: black;
+}
+.details6  p {
+    color: black;
+}
+.imgf7{
+    display: grid;
+    position: relative;
+    grid-template-rows: auto 1fr;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.6);
+    transition: .2s ease-in-out;
+
+}
+.imgf7{
+    position: relative;
+    position: absolute;
+    top: 2000px;
+    left: 1030px;
+    width: 25%;
+    height: 400px;
+    border-radius: 15px 15px 0 0;
+    cursor: pointer;
+}
+.imgf7 img:hover{
+    scale: 0.9;
+
+}
+.details-sub7{
+    color: black;
+}
+.details7  p {
+    color: black;
+}
+#Offer{
+    position: absolute;
+    top: 2600px;
+    height: 500px;
+    width: 100%;
+}
+
+.btn-brand{
+    background-color:green;
+    
+    color: black;
+    
+}
+.btn-brand:hover{
+    border-color: black;
+    background-color:orange;
+    color: white;
+}
+#reservation {
+    position: absolute;
+    top: 3300px;
+    height: 500px;
+    width: 100%;
+}
+#reservation .form-control{
+    margin-bottom: -3rem;
+}
+#reservation .form-control:focus {
+    box-shadow: none;
+    border-color:black;
+}
+#reservation input .form-control {
+    height: 47px;
+}
+#reservation .btn{
+    text-align: center;
+    color: white;
+    background-color: green;
+    margin-top: 10px;
+    margin-right: 50px;
+    
+}
+.insta-post {
+    position: absolute;
+    top: 4650px;
+    overflow: hidden;
+    
+
+}
+.insta-post img {
+    transition: all 0.4s;
+}
+
+.insta-post:hover img {
+    transform: scale(1.2);
+}
+
+.insta-post:hover .insta-btn {
+    opacity: 1;
+}
+.hero-header{
+    position: absolute;
+    top: 3800px;
+    left: 0;
+    background: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65),rgba(0,0,0,0.38),rgba(0,0,0,0)),
+    url(new.jpg);
+
+    height: 768px;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+
+}
+.header-spin{
+    position: absolute;
+    top: 5100px;
+    background: linear-gradient(rgba(26, 25, 25, 0.65),rgba(0,0,0,0.65),rgba(0,0,0,0.38),rgba(0,0,0,0)),
+    url(bg8.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-spin img{
+    animation: imgrotate 50s linear infinite;
+
+}
+@keyframes imgrotate{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+/* Footer */
+.footer-top {
+    position: relative;
+    position:absolute;
+    left: 0px;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(cover3.jpg);
+    padding-top: 120px;
+    padding-bottom: 30px;
+}
+
+.footer-top {
+    margin-top: 200px;
+    margin-bottom: 30px;
+}
+</style>
+
+    
+<body>
+    
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top bg-transparent">
+        <div class="container-fluid">
+            <img src="logo new.png" alt="pic"  height="50px" width="50px">
+        <h3>DELICIOUS ResturanT </h3>
+            <div class="box">
+                <div class="" data-bs-spy="scroll" data-bs-target="navbar"> 
+                    <ul class="navbar-nav" type="none" >
+                        <li class="navbar-item"><a href="#Home" class="nav-link">Home</a></li>
+                        <li class="navbar-item"><a href="#About" class="nav-link" >About us</a></li>
+                        <li class="navbar-item"><a href="#Menu"  class="nav-link">Menu</a></li>
+                        <li class="navbar-item"><a href="#Offer" class="nav-link">Offers </a></li>
+                        <li class="navbar-item"><a href="#Book Now" class="nav-link">Book Now </a></li>
+                      <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse " id="nav"></div>
+                      
+                      </ul>
+        
+                </div>
+            </div>
+        
+        </div>
+
+    </nav>
+
+<div class="container">
+    <section id="Home">
+        <div class="wel">
+            <h2>Order Tasty & Fresh <br> Food</h2>
+            <h3> AnytimE & AnywherE</h3>
+                
+                    <!-- Trigger the modal with a button -->
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#myModal">SIGN IN</button>
+                  
+                    <!-- Modal -->
+                    <div class="modal fade" id="myModal" role="dialog">
+                      <div class="modal-dialog">
+                      
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Modal Header</h4>
+                          </div>
+                          <div class="modal-body">
+                            <p>Some text in the modal.</p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+                        
+                      </div>
+                    </div>
+                    
+                  
+                  
+         </div>
+         
+    
+    </section>
+</div>
+ 
+<div class="container">
+    <section id="About">
+        <div class="ab">
+            <h1><b>ABOUT US</b></h1>
+            <h4>A restaurant might offer 
+            food and drink to take away
+             or for delivery, 
+             this type 
+             of business is characterized
+              by providing somewhere where
+              guests can sit down for a meal.<br>
+        
+              The food at a fine dining 
+              establishment will be of 
+              the highest quality, 
+              made with luxurious ingredients, 
+              and served in unique and 
+              beautiful presentations.<br>
+              <b>We are providing a Good food at reasonable prices.</b>
+        </h4>
+         </div>
+        
+    </section>
+     </div>
+   
+<div class="img">
+    <img src="cover3.jpg" alt="pic" width="500" height="500">
+
+ </div>
+ <div class="container">
+    <section id="Menu">
+        <div class="em">
+            <h1>EXPLORE OUR MENU</h1>
+        </div>
+    </section>
+ </div>
+
+
+<div class="imgf">
+    <img src="item_6.jpg">
+<div class="details">
+    <div class="details-sub">
+        <h5>Chicken</h5>
+        <h5 class="price">$9</h5> 
+
+    </div>
+    <p>Roasted full chicken tandoori </p>
+<button>Add to cart</button>
+</div>
+
+</div>
+<div class="imgf1">
+    <img src="item_7.jpg">
+<div class="details1">
+    <div class="details-sub1">
+        <h5>Burger</h5>
+        <h5 class="price">$5</h5> 
+
+    </div>
+    <p>30 per offer Roasted full Burger </p>
+<button>Add to cart</button>
+</div>
+
+</div>
+<div class="imgf2">
+    <img src="fish.jpg">
+<div class="details2">
+    <div class="details-sub2">
+        <h5>fish</h5>
+        <h5 class="price">$9</h5> 
+
+    </div>
+    <p>Fish fry using ginger garlic... </p>
+<button>Add to cart</button>
+</div>
+
+</div>
+<div class="imgf3">
+    <img src="meals.jpg">
+<div class="details3">
+    <div class="details-sub3">
+        <h5>Dinner set</h5>
+        <h5 class="price">$15</h5> 
+
+    </div>
+    <p>DINNER SET idly,chapathy.etc.., </p>
+<button>Add to cart</button>
+</div>
+</div>
+<div class="imgf4">
+    <img src="pizza.jpg">
+<div class="details4">
+    <div class="details-sub4">
+        <h5>pizza</h5>
+        <h5 class="price">$9</h5> 
+
+    </div>
+    <p> pizza-filled-with-tomatoes-salami-olives</p>
+    
+    <button>Add to cart</button>
+</div>
+
+</div>
+<div class="imgf5">
+    <img src="panneer.jpg">
+<div class="details5">
+    <div class="details-sub5">
+        <h5>panneer</h5>
+        <h5 class="price">$9</h5> 
+
+    </div>
+    <p>Roasted full chicken tandoori </p>
+<button>Add to cart</button>
+</div>
+
+</div>
+<div class="imgf6">
+    <img src="bgt 1.jpg">
+<div class="details6">
+    <div class="details-sub6">
+        <h5>cutlet</h5>
+        <h5 class="price">$9</h5> 
+
+    </div>
+    <p>Roasted full chicken tandoori </p>
+<button>Add to cart</button>
+</div>
+
+</div>
+<div class="imgf7">
+    <img src="cm 2.jpg">
+<div class="details7">
+    <div class="details-sub7">
+        <h5>Chicken</h5>
+        <h5 class="price">$9</h5> 
+
+    </div>
+    <p>Roasted full chicken tandoori </p>
+<button>Add to cart</button>
+</div>
+
+</div>
+
+<!--offer-->
+<div class="container-fluid">
+    <section id="Offer">
+        <div class="carousel slide" id="ex" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="cover1.jpg" class="d-block w-100" height="600px">
+                    <div class="carousel-caption" >
+                        <h1 class="display-1 align-items-center justify-content-center ">WELCOME TO DELICIOUS <br>resturant <br>-------</h1>
+                        <a href="#" class="btn btn-brand">ORDER NOW</a>
+
+                    </div>
+    
+    
+                </div>
+                <div class="carousel-item ">
+                    <img src="cover2.jpg" class="d-block w-100" height="600px">
+                    <div class="carousel-caption " >
+                        <h1 class="display-1">CHAR-GRILLED AND <br>FLAVOR-FILLED</h1>
+                        <a href="#" class="btn btn-brand">ORDER NOW</a>
+
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <img src="img1.jpg" class="d-block w-100" height="600px">
+                    <div class="carousel-caption" >
+                        <h1 class="display-1"> DELICIOUS FOOD ZONE <br>30 PERSENT OFFER FOR COMBO VERITY</h1>
+                        <a href="#" class="btn btn-brand">ORDER NOW</a>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="carousel-control-prev" data-bs-target="#ex" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button type="button" class="carousel-control-next" data-bs-target="#ex" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" class="active" data-bs-target="#ex" data-bs-slide-to="0"></button>   
+                <button type="button"  data-bs-target="#ex" data-bs-slide-to="1"></button>   
+                <button type="button"  data-bs-target="#ex" data-bs-slide-to="2"></button>   
+    
+    
+                 </div>
+        </div>
+
+    </section>
+
+</div>
+
+<!--reservation-->
+<section id="reservation">
+    <div class="container">
+        <section id="Book Now">
+            <div class="row g-3">
+                <div class="col-12 intro-text text-dark text-center">
+                    <h1> BOOK YOUR TABLE</h1>
+                    <p>Restaurants in Chennai offering discounts on food & drinks,<br> Check out menu, 
+                    reviews and also book a table through dineout for free.</p>
+                </div>
+            </div>
+        </section>
+            <form action="#" class="row justify-content-center mt-5 ms-5 ">
+                <div class="col-lg-8">
+                    <div class="row g-3 ">
+                        <div class="form-group  col-md-6">
+                            <input type="text" class="form-content" placeholder="full name">
+                        </div>
+                        <div class="form-group  col-md-6" >
+                            <input type="email" class="form-content" placeholder="email address">
+                        </div>
+                        <div class="form-group  col-md-6">
+                            <input type="text" class="form-content" placeholder="date">
+                        </div>
+                        <div class="form-group  col-md-6 ">
+                            <input type="text" class="form-content" placeholder="time">
+                        </div>
+                        <div class="form-group  col-md-10" >
+                            <textarea name="" id="" cols="30" rows="4" class="form-control" placeholder="message"></textarea>
+                        </div>
+                        <div class="form-group  text-center col-md-12 mt-5 me-3" > 
+                            <a href="#" class="btn btn-brand">Send Message</a>
+    
+                        </div>
+    
+                    </div>
+                </div>
+                
+            </form>
+
+    
+       
+    </div>
+</section>
+<!--instaposts-->
+<div class="container-fluid">
+ <section id="instap">
+    <div class="row g-0">
+        <div class="col-lg-3 col-sm-6">
+            <div class="insta-post">
+                <img src="insta_post01.jpg" alt="" height="320px" width="320px">
+                <a href="#" class="insta-btn">
+                    <i class="ri-instagram-fill"></i>
+                </a>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+            <div class="insta-post">
+                <img src="insta_post02.jpg" alt="" height="320px" width="325px">
+                <a href="#" class="insta-btn">
+                    <i class="instagram-fill"></i>
+                </a>
+            </div>
+        </div>
+                <div class="col-lg-3 col-sm-6">
+            <div class="insta-post">
+                <img src="insta_post03.jpg" alt=""height="320px" width="325px">
+                <a href="#" class="insta-btn">
+                    <i class="instagram-fill"></i>
+                </a>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+            <div class="insta-post">
+                <img src="insta_post04.jpg" alt=""height="320px" width="320px">
+                <a href="#" class="insta-btn">
+                    <i class="instagram-fill"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+ </section>
+   
+
+</div>
+<div class="container-xxl py-5 hero-header mb-3" >
+    <div class="container my-5 py-5">
+        <div class="row align-items-center g-5">
+            <h1 class="display-3 text-white animated slideInLeft">ENJOY OUR<br>DELICIOUS FOOD RESTAURANT </h1>
+            <P class="text-white animated slideInLeft">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur adipisci velit corporis debitis blanditiis hic,<br>
+                 ipsam magni exercitationem ullam quibusdam a ad! ,<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur adipisci velit corporis debitis blanditiis hic,<br>
+                 ipsam magni exercitationem ullam quibusdam a ad!</P>
+        </div>
+        
+    </div>
+</div>
+<!---spinner-->
+
+<div class="container-xxl py-5 header-spin mb-3">
+    <div class="container my-5 py-5">
+        <div class="row align-items-center g-5">
+            <h1 class="display-3 text-white animated slideInLeft">50 PERSENT OFFER IN COMBO FOOD<br> </h1>
+            <P class="text-white animated slideInLeft">AND ALSO AVAILABLE BUY ONE GET TWO OFFER FOR ALLA FOOD </P>
+    <div class="col-lg-6 text-center text-lg-end overflow-hidden">
+        <img src="spin.png" alt="" class="img-fluid">
+    </div>
+</div>
+<!----footer---->
+    
+<div class="footer-top w-100">
+    <div class="container">
+        <div class="row">
+         <div class="col-lg-4">
+             <h1>DELICIOUS RESTAURANT</h1>
+             <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit architecto unde magnam.</P>
+         </div>
+         <div class="col-lg-3 ms-auto">
+             <h6 class="text-white mb-4">CONTACT</h6>
+             <p>P:(91)9876543</p>
+             <p>E:delicious@gmil.com</p>
+             <p class="mb-0">A:2nd rajaji street ,nungambakam,chennai 609661</p>
+         </div>
+         <div class="col-lg-3">
+             <h6 class="text-white mb-4">OPENING HOURS</h6>
+             <p class="mb-1">Monday to Friday :8:00am - 11:00 pm</p>
+             <p class="mb-1">Saturday and sunday :10:00am - 2:00 pm</p>
+ 
+         </div>
+ 
+        </div>
+     
+     </div>
+</div>
+
+
+ 
+</body>
+<script src="js/bootstrap.bundle.js"> </script>
+
+
+<script src="js/bootstrap.min.js"> </script>
+</html>
